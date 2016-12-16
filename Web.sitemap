@@ -1,0 +1,177 @@
+﻿<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="Dashboard" description="Dashboard" url="~/Application/Common/Dashboard.aspx" >
+    <siteMapNode title="My Account" description="My Account" url="~/Application/Administration/MyAccount.aspx" />
+    <siteMapNode title="System Setup" description="System Setup" url="~/Application/Common/SystemSetup.aspx">
+      <siteMapNode title="Security" description="Security">
+        <siteMapNode title="Manage Roles" description="Manage Roles" url="~/Application/Masters/ManageRoles.aspx"/>
+        <siteMapNode title="Manage Branches" description="Manage Branches" url="~/Application/Masters/ManageFacilities.aspx"/>
+      </siteMapNode>
+      <siteMapNode title="Common Masters" description="Common Masters">
+        <siteMapNode title="City" description="City" url="~/Application/Masters/Master_City.aspx"/>
+        <siteMapNode title="Colony" description="Colony" url="~/Application/Masters/Master_Colony.aspx"/>
+        <siteMapNode title="Credit Company" description="Credit Company" url="~/Application/Masters/Master_CreditCompany.aspx"/>
+        <siteMapNode title="Consultant Cost" description="Consultant Cost" url="~/Application/Masters/Mas_ConsultantCost.aspx"/>
+        <siteMapNode title="Coupon" description="Coupon" url="~/Application/Masters/Master_Coupon.aspx"/>
+        <siteMapNode title="Designation" description="Designation" url="~/Application/Masters/Master_Designation.aspx"/>
+        <siteMapNode title="Employee" description="Employee" url="~/Application/Masters/Master_Employee.aspx"/>
+        <siteMapNode title="Literacy" description="Literacy" url="~/Application/Masters/Master_Literacy.aspx"/>
+        <siteMapNode title="Municipal Ward" description="Municipal Ward" url="~/Application/Masters/Master_MunicipalWard.aspx"/>
+        <siteMapNode title="Method Of Delivery" description="Method Of Delivery" url="~/Application/Masters/Master_MethodOfDelivery.aspx"/>
+        <siteMapNode title="Nationality" description="Nationality" url="~/Application/Masters/Master_Nationality.aspx"/>
+        <siteMapNode title="Occupation" description="Occupation" url="~/Application/Masters/Master_Occupation.aspx"/>
+        <siteMapNode title="Pay Mode" description="Pay Mode" url="~/Application/Masters/Master_PayMode.aspx"/>
+        <siteMapNode title="Religion" description="Religion" url="~/Application/Masters/Master_Religion.aspx"/>
+        <siteMapNode title="Package" description="Package" url="~/Application/Masters/Master_Package.aspx"/>
+        <siteMapNode title="Package Cost" description="Package Cost" url="~/Application/Masters/Master_PackageCost.aspx"/>
+        <siteMapNode title="Question" description="Question" url="~/Application/Masters/Master_Question.aspx"/>
+        <siteMapNode title="Scheme Coupon" description="Scheme Coupon" url="~/Application/Masters/Master_SchemeCoupon.aspx"/>
+        <siteMapNode title="Section" description="Section" url="~/Application/Masters/Master_Section.aspx"/>
+        <siteMapNode title="Service" description="Service" url="~/Application/Masters/Master_Service.aspx"/>
+        <siteMapNode title="Service Cost" description="Service Cost" url="~/Application/Masters/Master_ServiceCost.aspx"/>
+        <siteMapNode title="Service Main Group" description="Service Main Group" url="~/Application/Masters/Master_ServiceMainGroup.aspx"/>
+        <siteMapNode title="Service Group" description="Service Group" url="~/Application/Masters/Master_ServiceGroup.aspx"/>
+        <siteMapNode title="Street" description="Street" url="~/Application/Masters/Master_Street.aspx"/>
+        <siteMapNode title="Tariff" description="Tariff" url="~/Application/Masters/Master_Tariff.aspx"/>
+        <siteMapNode title="Ward" description="Ward" url="~/Application/Masters/Master_Ward.aspx"/>
+        <siteMapNode title="Notice Board" description="Notice Board" url="~/Application/Masters/Master_NoticeBoard.aspx"/>
+      </siteMapNode>
+      <siteMapNode title="Facility Masters" description="Facility Masters">
+        <siteMapNode title="Bed" description="Bed" url="~/Application/Masters/Master_Bed.aspx"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="OP Management" description="OP Management">
+      <siteMapNode title="Registration and OP Visit" description="Registration and OP Visit" url="~/Application/OPManagement/Registration.aspx"/>
+      <siteMapNode title="OP Billing" description="OP Billing" url="~/Application/OPManagement/Billing.aspx"/>
+      <siteMapNode title="Bill Cancellation" description="Bill Cancellation" url="~/Application/OPManagement/BillCancellation.aspx"/>
+      <siteMapNode title="Edit EDD Details" description="Edit EDD Details" url="~/Application/OPManagement/EditEDDDetails.aspx"/>
+      <siteMapNode title="Prospects" description="Prospects" url="~/Application/OPManagement/Prospects.aspx" />
+    </siteMapNode>
+    <siteMapNode title="IP Management" description="IP Management">
+      <siteMapNode title="Admission" description="Admission" url="~/Application/IPManagement/Admission.aspx"/>
+      <siteMapNode title="Transfers" description="Transfers" url="~/Application/IPManagement/Transfers.aspx"/>
+      <siteMapNode title="IP Billing" description="IP Billing" url="~/Application/IPManagement/Billing.aspx"/>
+      <siteMapNode title="Edit Admission Details" description="Edit Admission Details" url="~/Application/IPManagement/EditAdmissionDetails.aspx" />
+      <siteMapNode title="Credit Payment Entry" description="Credit Payment Entry" url="~/Application/IPManagement/CreditPaymentEntry.aspx" />
+      <siteMapNode title="View Birth Certificate" description="View Birth Certificate" url="~/Application/IPManagement/ViewBirthCertificate.aspx"/>
+    </siteMapNode>
+    <siteMapNode title="Cash Management" description="Cash Management" url="~/Application/CashManagement/CashManagement.aspx"/>
+    <siteMapNode title="MR Data Entry " description="MR Data Entry ">
+      <siteMapNode title="BDF Customers" description="BDF Customers" url="~/Application/EMR/BDFCustomers.aspx"/>
+      <siteMapNode title="BDF" description="BDF" url="~/Application/EMR/EMR.aspx"/>
+      <siteMapNode title="Investigation Chart" description="Investigation Chart" url="~/Application/EMR/InvestigationChart.aspx"/>
+      <siteMapNode title="View BDF" description="View BDF" url="~/Application/EMR/ViewEMR.aspx"/>
+      <siteMapNode title="View Case Sheet" description="View Case Sheet" url="~/Application/EMR/ViewBdfPdf.aspx"/>
+    </siteMapNode>
+    <siteMapNode title="Approvals" description="Approvals">
+      <siteMapNode title="Credit Customer Approval" description="Credit Customer Approval" url="~/Application/Administration/CreditCustomerApproval.aspx"/>
+      <siteMapNode title="Transfer Approval" description="Transfer Approval" url="~/Application/Administration/TransferApproval.aspx"/>
+      <siteMapNode title="Discount Approval" description="Discount Approval" url="~/Application/Administration/DiscountApproval.aspx"/>
+      <siteMapNode title="Discounts" description="Discounts" url="~/Application/Administration/Discounts.aspx"/>
+      <siteMapNode title="Cancellation Approval" description="Cancellation Approval" url="~/Application/Administration/CancellationApproval.aspx"/>
+      <siteMapNode title="Receipt Cancellation Approval" description="Receipt Cancellation Approval" url="~/Application/Administration/ReceiptCancellationApproval.aspx"/>
+      <siteMapNode title="Edit Admission Details Approval" description="Edit Admission Details Approval" url="~/Application/Administration/EditOfAdmissionDetailsApproval.aspx"/>
+      <siteMapNode title="Coupon Print" description="Coupon Print" url="~/Application/Administration/CouponPrint.aspx"/>
+    </siteMapNode>
+    <siteMapNode title="FeedBack" description="FeedBack">
+      <siteMapNode title="FeedBack" description="FeedBack" url="~/Application/FeedBack/FeedBack.aspx">
+        <siteMapNode title="FeedBackDetails" description="FeedBackDetails" url="~/Application/FeedBack/FeedBackDetails.aspx"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Reports" description="Reports">
+      <siteMapNode title="Master Reports" description="Master Reports" url="~/Application/Common/MasterReports.aspx">
+        <siteMapNode title="Security" description="Security">
+          <siteMapNode title="Branch" description="Branch" url="~/Application/MasterReports/Branch.aspx"/>
+          <siteMapNode title="Role" description="Role" url="~/Application/MasterReports/Role.aspx"/>
+          <siteMapNode title="Role Permissions" description="Role Permissions" url="~/Application/MasterReports/RolePermissions.aspx"/>
+        </siteMapNode>
+        <siteMapNode title="Common Masters" description="Common Masters">
+          <siteMapNode title="City" description="City" url="~/Application/MasterReports/City.aspx"/>
+          <siteMapNode title="Colony" description="Colony" url="~/Application/MasterReports/Colony.aspx"/>
+          <siteMapNode title="Consultant Cost" description="Consultant Cost" url="~/Application/MasterReports/ConsultantCost.aspx"/>
+          <siteMapNode title="Credit Company" description="Credit Company" url="~/Application/MasterReports/CreditCompany.aspx"/>
+          <siteMapNode title="Coupon" description="Coupon" url="~/Application/MasterReports/Coupon.aspx"/>
+          <siteMapNode title="Designation" description="Designation" url="~/Application/MasterReports/Designation.aspx"/>
+          <siteMapNode title="Employee" description="Employee" url="~/Application/MasterReports/Employee.aspx"/>
+          <siteMapNode title="Literacy" description="Literacy" url="~/Application/MasterReports/Literacy.aspx"/>
+          <siteMapNode title="Method Of Delivery" description="Method Of Delivery" url="~/Application/MasterReports/MethodOfDelivery.aspx"/>
+          <siteMapNode title="Municipal Ward" description="Municipal Ward" url="~/Application/MasterReports/MunicipalWard.aspx"/>
+          <siteMapNode title="Nationality" description="Nationality" url="~/Application/MasterReports/Nationality.aspx"/>
+          <siteMapNode title="Notice Board" description="Notice Board" url="~/Application/MasterReports/NoticeBoard.aspx"/>
+          <siteMapNode title="Occupation" description="Occupation" url="~/Application/MasterReports/Occupation.aspx"/>
+          <siteMapNode title="Package Cost" description="Package Cost" url="~/Application/MasterReports/PackageCost.aspx"/>
+          <siteMapNode title="Pay Mode" description="Pay Mode" url="~/Application/MasterReports/PayMode.aspx"/>
+          <siteMapNode title="Question" description="Question" url="~/Application/MasterReports/Question.aspx"/>
+          <siteMapNode title="Religion" description="Religion" url="~/Application/MasterReports/Religion.aspx"/>
+          <siteMapNode title="Section" description="Section" url="~/Application/MasterReports/Section.aspx"/>
+          <siteMapNode title="Service" description="Service" url="~/Application/MasterReports/Service.aspx"/>
+          <siteMapNode title="Service Cost" description="Service Cost" url="~/Application/MasterReports/ServiceCost.aspx"/>
+          <siteMapNode title="Service Group" description="Service Group" url="~/Application/MasterReports/ServiceGroup.aspx"/>
+          <siteMapNode title="Service Main Group" description="Service Main Group" url="~/Application/MasterReports/ServiceMainGroup.aspx"/>
+          <siteMapNode title="Street" description="Street" url="~/Application/MasterReports/Street.aspx"/>
+          <siteMapNode title="Tariff" description="Tariff" url="~/Application/MasterReports/Tariff.aspx"/>
+          <siteMapNode title="Ward" description="Ward" url="~/Application/MasterReports/Ward.aspx"/>
+        </siteMapNode>
+        <siteMapNode title="Facility Masters" description="Facility Masters">
+          <siteMapNode title="Bed" description="Bed" url="~/Application/MasterReports/Bed.aspx"/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="Billing Reports" description="Billing Reports" url="~/Application/Common/BillingReports.aspx">
+        <siteMapNode title="Daily Cash Scroll" description="Daily Cash Scroll" url="~/Application/BillingReports/DailyCashScroll.aspx"/>
+        <siteMapNode title="Bills List" description="Bills List" url="~/Application/BillingReports/BillsList.aspx"/>
+        <siteMapNode title="Counter Transactions" description="Counter Transactions" url="~/Application/BillingReports/CounterTransactions.aspx"/>
+        <siteMapNode title="Daily Business MIS " description="Daily Business MIS" url="~/Application/BillingReports/DailyBusinessMIS.aspx"/>
+        <siteMapNode title="Doctor Revenue" description="Doctor Revenue" url="~/Application/BillingReports/DoctorRevenue.aspx"/>
+        <siteMapNode title="Doctor Payments" description="Doctor Payments" url="~/Application/BillingReports/DoctorPayments.aspx"/>
+        <siteMapNode title="Hospital Bed Occupancy " description= "Hospital Bed Occupancy" url="~/Application/BillingReports/HospitalBedOccupancy.aspx"/>
+      </siteMapNode>
+      <siteMapNode title="Control Reports" description="Control Reports" url="~/Application/Common/ControlReports.aspx">
+        <siteMapNode title="Admission Delay" description="Admission Delay" url="~/Application/ControlReports/AdmissionDelay.aspx"/>
+        <siteMapNode title="IP Billing Delay" description="IP Billing Delay" url="~/Application/ControlReports/IPBillingDelay.aspx"/>
+        <siteMapNode title="Advance Collection Delay " description="Advance Collection Delay" url="~/Application/ControlReports/AdvancecollectionDelay.aspx"/>
+        <siteMapNode title="Credit Bill Aging " description="Credit Bill Aging" url="~/Application/ControlReports/CreditBillAgingReport.aspx"/>
+        <siteMapNode title="Ward Upgrade Downgrade" description="Ward Upgrade Downgrade" url="~/Application/ControlReports/WardUpGradeDownGrade.aspx"/>
+        <siteMapNode title="Bill Record Mapping " description="Bill Record Mapping" url="~/Application/ControlReports/BillRecordMapping.aspx"/>
+        <siteMapNode title="Collection Deposits " description="Collection Deposits" url="~/Application/ControlReports/CollectionDeposits.aspx"/>
+        <siteMapNode title="Cash Handover Discrepancy " description="Cash Handover Discrepancy" url="~/Application/ControlReports/CashHandoverDiscrepancy.aspx"/>
+      </siteMapNode>
+      <siteMapNode title="Marketing Reports" description="Marketing Reports" url="~/Application/Common/MarketingReports.aspx">
+        <siteMapNode title="Prospects To ANC Conversion" description="Prospect To ANC Conversion" url="~/Application/MarketingReports/ProspectsToANCConversion.aspx"/>
+        <siteMapNode title="ANC Register" description="ANC Register" url="~/Application/MarketingReports/ANCRegister.aspx"/>
+        <siteMapNode title="ANC Appointment Tracker" description="ANC Appointment Tracker" url="~/Application/MarketingReports/ANCAppointmentTracker.aspx"/>
+        <siteMapNode title="Birth Cohort Tracker" description="Birth Cohort Tracker" url="~/Application/MarketingReports/BirthCohortTracker.aspx"/>
+        <siteMapNode title="ANC To Delivery Conversion" description="ANC To Delivery Conversion" url="~/Application/MarketingReports/ANCToDeliveryConversion.aspx"/>
+        <siteMapNode title="Referral Performance" description="Referral Performance" url="~/Application/MarketingReports/ReferralPerformance.aspx"/>
+        <siteMapNode title="Market Coverage" description="Market Coverage" url="~/Application/MarketingReports/MarketCoverage.aspx"/>
+        <siteMapNode title="Customer Exit Feedback" description="Customer Exit Feedback" url="~/Application/MarketingReports/CustomerExitFeedback.aspx"/>
+        <siteMapNode title="Doctor Performance" description="Doctor Performance" url="~/Application/MarketingReports/DrPerformance.aspx"/>
+        <siteMapNode title="Delivered Customer Profile" description="Delivered Customer Profile" url="~/Application/MarketingReports/DeliveredCustomerProfile.aspx"/>
+      </siteMapNode>
+      <siteMapNode title="Clinical Reports" description="Clinical Reports" url="~/Application/Common/ClinicalReports.aspx">
+        <siteMapNode title="Birth Documentation" description="Birth Documentation" url="~/Application/ClinicalReports/BirthDocumentation.aspx" />
+        <siteMapNode title="Clinical Quality" description="Clinical Quality" url="~/Application/ClinicalReports/ClinicalQuality.aspx"/>
+        <siteMapNode title="NICU Admissions" description="NICU Admissions" url="~/Application/ClinicalReports/NICUAdmissions.aspx"/>
+        <siteMapNode title="C Section" description="C Section" url="~/Application/ClinicalReports/CSection.aspx"/>
+        <siteMapNode title="Investigations" description="Investigations" url="~/Application/ClinicalReports/Investigations.aspx"/>
+      </siteMapNode>
+      <siteMapNode title="Operational Reports" description="Operational Reports" url="~/Application/Common/OperationalReports.aspx">
+        <siteMapNode title="Customer Search" description="Customer Search" url="~/Application/OperationalReports/CustomerSearch.aspx"/>
+        <siteMapNode title="Bed Board" description="Bed Board" url="~/Application/OperationalReports/BedBoard.aspx"/>
+        <siteMapNode title="Duplicate Bill Print" description="Duplicate Bill Print" url="~/Application/OperationalReports/DuplicateBillPrint.aspx"/>
+        <siteMapNode title="Duplicate Cash Handover" description="Duplicate Cash Handover" url="~/Application/OperationalReports/DuplicateCashHandOver.aspx"/>
+        <siteMapNode title="Admission Register" description="Admission Register" url="~/Application/OperationalReports/AdmissionRegister.aspx"/>
+        <siteMapNode title="Delivery Register" description="Delivery Register" url="~/Application/OperationalReports/DeliveryRegister.aspx"/>
+        <siteMapNode title="Discharge Register" description="Discharge Register" url="~/Application/OperationalReports/DischargeRegister.aspx"/>
+        <siteMapNode title="Birth Certificate Register" description="Birth Certificate Register" url="~/Application/OperationalReports/BirthCertificateRegister.aspx"/>
+        <siteMapNode title="Inactive Customers" description="Inactive Customers" url="~/Application/OperationalReports/InactiveCustomers.aspx"/>
+        <siteMapNode title="CRM" description="CRM" url="~/Application/OperationalReports/CRM.aspx"/>
+      </siteMapNode>
+      <siteMapNode title="Trend Reports" description="Trend Reports" url="~/Application/Common/TrendReports.aspx">
+        <siteMapNode title="Occupancy" description="Occupancy" url="~/Application/TrendReports/Occupancy.aspx"></siteMapNode>
+        <siteMapNode title="Length of Consultation Billing" description="Length of Consultation Billing" url="~/Application/TrendReports/ConsultationBillingLength.aspx"/>
+        <siteMapNode title="Revenue" description="Revenue" url="~/Application/TrendReports/Revenue.aspx"></siteMapNode>
+        <siteMapNode title="New ANC" description="New ANC" url="~/Application/TrendReports/NewANC.aspx"/>
+        <siteMapNode title="Regular Customers Percentage" description="Regular Customers Percentage" url="~/Application/TrendReports/RegularCustomersPercentage.aspx"/>
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
