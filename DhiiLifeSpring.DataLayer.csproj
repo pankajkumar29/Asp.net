@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5F25B7D-913D-4A1E-8004-784507AE1AB6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DhiiLifeSpring.DataLayer</RootNamespace>
+    <AssemblyName>DhiiLifeSpring.DataLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DL_Bdf.cs" />
+    <Compile Include="DL_CreditCompany.cs" />
+    <Compile Include="DL_FeedBack.cs" />
+    <Compile Include="DL_IP_EditAdmission.cs" />
+    <Compile Include="DL_Mas_Coupon.cs" />
+    <Compile Include="DL_Mas_Question.cs" />
+    <Compile Include="DL_Mas_Section.cs" />
+    <Compile Include="DL_NoticeBoard.cs" />
+    <Compile Include="DL_DashBoard.cs" />
+    <Compile Include="DL_BirthCertificate.cs" />
+    <Compile Include="DL_MethodOfDelivery.cs" />
+    <Compile Include="DL_CashManagement.cs" />
+    <Compile Include="DL_IP_Billing.cs" />
+    <Compile Include="DL_IP_Transfers.cs" />
+    <Compile Include="DL_Literacy.cs" />
+    <Compile Include="DL_Nationality.cs" />
+    <Compile Include="DL_Occupation.cs" />
+    <Compile Include="DL_OP_Registration.cs" />
+    <Compile Include="DL_Bed.cs" />
+    <Compile Include="DL_City.cs" />
+    <Compile Include="DL_Employee.cs" />
+    <Compile Include="DL_IP_Admission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DL_MunicipalWard.cs" />
+    <Compile Include="DL_PayMode.cs" />
+    <Compile Include="DL_Religion.cs" />
+    <Compile Include="DL_Reports.cs" />
+    <Compile Include="DL_Service.cs" />
+    <Compile Include="DL_ServiceCost.cs" />
+    <Compile Include="DL_ServiceMainGroup.cs" />
+    <Compile Include="DL_Street.cs" />
+    <Compile Include="DL_ServiceGroup.cs" />
+    <Compile Include="DL_Designation.cs" />
+    <Compile Include="DL_Facility.cs" />
+    <Compile Include="DL_Login.cs" />
+    <Compile Include="DL_Logs.cs" />
+    <Compile Include="DL_Role.cs" />
+    <Compile Include="DL_Colony.cs" />
+    <Compile Include="DL_Tariff.cs" />
+    <Compile Include="DL_Ward.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DhiiLifeSpring.AppInfrastructure\DhiiLifeSpring.AppInfrastructure.csproj">
+      <Project>{0618D29D-F88E-421D-B4A1-D22EF4F755AC}</Project>
+      <Name>DhiiLifeSpring.AppInfrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
