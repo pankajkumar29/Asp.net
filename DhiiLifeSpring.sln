@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DhiiLifeSpring", "DhiiLifeSpring", "{C3FDE69F-D360-4650-AD18-340711C2AAAA}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{0618D29D-F88E-421D-B4A1-D22EF4F755AC}|DhiiLifeSpring.AppInfrastructure.dll;{39D2D342-1B9B-4598-B3FA-11A51AD65AB7}|DhiiLifeSpring.BusinessEntities.dll;{0630944E-D7F2-4C97-9A88-A98B35FD1522}|DhiiLifeSpring.BusinessLayer.dll;{C5F25B7D-913D-4A1E-8004-784507AE1AB6}|DhiiLifeSpring.DataLayer.dll;{6DB167F8-51FE-4F20-805A-5E8D96A39FD2}|DhiiLifeSpring.Security.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/DhiiLifeSpring"
+		Debug.AspNetCompiler.PhysicalPath = "DhiiLifeSpring\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DhiiLifeSpring\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DhiiLifeSpring"
+		Release.AspNetCompiler.PhysicalPath = "DhiiLifeSpring\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DhiiLifeSpring\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51029"
+		VWDVirtualPath = "/"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhiiLifeSpring.AppInfrastructure", "DhiiLifeSpring.AppInfrastructure\DhiiLifeSpring.AppInfrastructure.csproj", "{0618D29D-F88E-421D-B4A1-D22EF4F755AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhiiLifeSpring.BusinessEntities", "DhiiLifeSpring.BusinessEntities\DhiiLifeSpring.BusinessEntities.csproj", "{39D2D342-1B9B-4598-B3FA-11A51AD65AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhiiLifeSpring.BusinessLayer", "DhiiLifeSpring.BusinessLayer\DhiiLifeSpring.BusinessLayer.csproj", "{0630944E-D7F2-4C97-9A88-A98B35FD1522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhiiLifeSpring.DataLayer", "DhiiLifeSpring.DataLayer\DhiiLifeSpring.DataLayer.csproj", "{C5F25B7D-913D-4A1E-8004-784507AE1AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhiiLifeSpring.Security", "DhiiLifeSpring.Security\DhiiLifeSpring.Security.csproj", "{6DB167F8-51FE-4F20-805A-5E8D96A39FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfViewer", "PdfViewer\PdfViewer.csproj", "{F5A05A5C-6AFF-4432-92AB-9DBFCBAF2CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3FDE69F-D360-4650-AD18-340711C2AAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FDE69F-D360-4650-AD18-340711C2AAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FDE69F-D360-4650-AD18-340711C2AAAA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FDE69F-D360-4650-AD18-340711C2AAAA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0618D29D-F88E-421D-B4A1-D22EF4F755AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0618D29D-F88E-421D-B4A1-D22EF4F755AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0618D29D-F88E-421D-B4A1-D22EF4F755AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0618D29D-F88E-421D-B4A1-D22EF4F755AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D2D342-1B9B-4598-B3FA-11A51AD65AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D2D342-1B9B-4598-B3FA-11A51AD65AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D2D342-1B9B-4598-B3FA-11A51AD65AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D2D342-1B9B-4598-B3FA-11A51AD65AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0630944E-D7F2-4C97-9A88-A98B35FD1522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0630944E-D7F2-4C97-9A88-A98B35FD1522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0630944E-D7F2-4C97-9A88-A98B35FD1522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0630944E-D7F2-4C97-9A88-A98B35FD1522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F25B7D-913D-4A1E-8004-784507AE1AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F25B7D-913D-4A1E-8004-784507AE1AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F25B7D-913D-4A1E-8004-784507AE1AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F25B7D-913D-4A1E-8004-784507AE1AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB167F8-51FE-4F20-805A-5E8D96A39FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB167F8-51FE-4F20-805A-5E8D96A39FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB167F8-51FE-4F20-805A-5E8D96A39FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB167F8-51FE-4F20-805A-5E8D96A39FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A05A5C-6AFF-4432-92AB-9DBFCBAF2CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A05A5C-6AFF-4432-92AB-9DBFCBAF2CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A05A5C-6AFF-4432-92AB-9DBFCBAF2CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A05A5C-6AFF-4432-92AB-9DBFCBAF2CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
